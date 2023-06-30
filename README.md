@@ -1,0 +1,2 @@
+Neste exemplo, o método dividir recebe dois números e realiza uma divisão. No entanto, se o divisor for zero, lançamos explicitamente uma exceção ArithmeticException usando a palavra-chave throw. Em seguida, no método main, envolvemos a chamada do método dividir em um bloco try-catch para capturar essa exceção específica.
+Se a exceção for lançada, o bloco catch correspondente será executado, imprimindo a mensagem de erro "Erro: Divisão por zero!
